@@ -7,7 +7,7 @@ import Header from './components/header/Header';
 import Home from './components/pages/Home';
 import Restricted from './components/pages/Restricted';
 import Securedpage from './components/pages/Securedpage';
-import Authentication from './components/contexts/UserContextProvider';
+import AuthContextProvider from './components/contexts/UserContextProvider';
 
 function App() {
 
@@ -28,13 +28,13 @@ function App() {
         <div className="content">
 
           <Security oktaAuth={oktaAuth} restoreOriginalUri={restoreOriginalUri}>
-            <Authentication>
+            <AuthContextProvider>
               <Header />
               <Route path='/' exact={true} component={Home} />
               <SecureRoute path='/restricted' exact={true} component={Restricted} />
               <SecureRoute path='/securedpage' exact={true} component={Securedpage} />
               <Route path='/callback' component={LoginCallback} />
-            </Authentication>
+            </AuthContextProvider>
           </Security>
 
         </div>
