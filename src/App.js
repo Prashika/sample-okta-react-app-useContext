@@ -26,7 +26,6 @@ function App() {
     <div className="App">
       <div className="page">
         <div className="content">
-
           <Security oktaAuth={oktaAuth} restoreOriginalUri={restoreOriginalUri}>
             <AuthContextProvider>
               <Header />
@@ -36,7 +35,6 @@ function App() {
               <Route path='/callback' component={LoginCallback} />
             </AuthContextProvider>
           </Security>
-
         </div>
       </div>
     </div>
