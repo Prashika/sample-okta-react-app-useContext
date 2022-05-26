@@ -4,7 +4,7 @@ import { useOktaAuth } from '@okta/okta-react';
 
 export const UserContext = createContext();
 
-function Authentication(props) {
+function AuthContextProvider(props) {
     const { oktaAuth, authState } = useOktaAuth();
     const authentic = authState.isAuthenticated;
 
@@ -22,4 +22,4 @@ function Authentication(props) {
     );
 }
 
-export default Authentication;
+export default AuthContextProvider;
