@@ -1,5 +1,5 @@
 # sample-okta-react-app-usecontext
-Okta integration with react. Used 'useContext' Hook
+Focused on Okta integration with React. Used 'useContext' Hook
 
 ## Prerequisite: Steps to follow:
 1. Create your own okta-developer account
