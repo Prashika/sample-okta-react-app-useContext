@@ -2,7 +2,7 @@
 Focused on Okta integration with React. Used 'useContext' Hook
 
 ## Prerequisite: Steps to follow:
-1. Create your own okta-developer account
+1. Create your own okta-developer account and sign-in to Okta : [https://developer.okta.com/login/](https://developer.okta.com/login/).
 
 2. Register your application by selecting Applications -> Create App Integration. On the next screen, choose OIDC and Single Page App and click Next.
 
@@ -50,6 +50,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes in source code.\
 You may also see any lint errors in the console.
+
+# UseContext
+React Context is a way to manage state globally to share state/context between deeply nested components more easily.
+Here useConext is used to share authentication context between components.
 
 # References:
 - [https://developer.okta.com/docs/guides/quickstart/main/](https://developer.okta.com/docs/guides/quickstart/main/)
