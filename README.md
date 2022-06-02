@@ -34,7 +34,7 @@ In the project directory:
 
 ### `npx create-react-app sample-okta-react-app-usecontext`
 
-## UseContext
+## useContext Hook
 - React Context is a way to manage state globally to share state/context between deeply nested components more easily.
 - Here useConext is used to share authentication context between components.
 
