@@ -58,3 +58,4 @@ You may also see any lint errors in the console.
 # References:
 - [https://developer.okta.com/docs/guides/quickstart/main/](https://developer.okta.com/docs/guides/quickstart/main/)
 - [https://developer.okta.com/blog/2020/12/16/react-login](https://developer.okta.com/blog/2020/12/16/react-login)
+- [https://dmitripavlutin.com/react-context-and-usecontext/](https://dmitripavlutin.com/react-context-and-usecontext/)
